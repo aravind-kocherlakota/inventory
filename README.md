@@ -7,9 +7,9 @@ used react-18.XX
 
 
 ASSUMPTIONS TAKEN - 
-
-1. As I did not understand what "nearest across all batches means, I showing minimum  expiry date
-2. If there are two batches same name , As per problem state we are not aggregating them. As  that won't be right I aggreagted records with same batch name. (it is necessary as we are using dropdown for batchname , we cannot have duplicate values)
+1. for free/deal ratio ,considered 0/0 as minimum ratio eventhough 0/0 gives NaN
+2. As I did not understand what "nearest across all batches means, I showing minimum  expiry date
+3. If there are two batches same name , As per problem state we are not aggregating them. As  that won't be right I aggreagted records with same batch name. (it is necessary as we are using dropdown for batchname , we cannot have duplicate values)
 ![alt text](https://raw.githubusercontent.com/aravind-kocherlakota/inventory/master/public/ps.png)
 
 

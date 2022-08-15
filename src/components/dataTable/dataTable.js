@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import {actions} from '../../store'
 import MUIDataTable from "mui-datatables";
 import Select from 'react-select'
+import Loader from '../loader/loader'
 
 const DataTable = ()=>{
     const dispatch = useDispatch()
@@ -84,6 +85,7 @@ const DataTable = ()=>{
 
     return(
         <div className='flex tablePage'>
+            {loading && <Loader />}
             <Link to="/charts" className='secondary flex link'>View Charts</Link>
             <h4>Inventory Details</h4>
             <MUIDataTable

@@ -12,6 +12,11 @@
     align-items: center;
     .table{
         width: 100%;
+        position: relative;
+        .MuiTableHead-root{
+            position: relative;
+            z-index: 1;
+        }
     }
 }
 
