@@ -1,0 +1,43 @@
+.charts{
+    // height: rem-calc(600px);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: rem-calc(20px);
+    .inputs{
+        flex-direction: row;
+        margin-top: rem-calc(20px);
+        .select{
+            width: rem-calc(400px);
+        }
+        
+        .datePicker{
+            width: rem-calc(295px);
+            border-radius: rem-calc(4px);
+            border-color: hsl(0, 0%, 80%);
+            border-width: rem-calc(1px);
+            min-height: rem-calc(36px);
+            margin-left: rem-calc(8px);
+        }
+    }
+
+    .errorText{
+        height: rem-calc(15px);
+        color: red;
+    }
+    
+    .loader{
+        justify-content: center;
+        align-items: center;
+    }
+    .react-datepicker__input-container{
+        width: rem-calc(300px) !important;
+    }
+
+    .pieButton,.barButton{
+        width: rem-calc(150px);
+        margin-top:rem-calc(10px);
+        margin-right: rem-calc(4px);
+        margin-left: rem-calc(4px);
+    }
+}

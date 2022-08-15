@@ -1,0 +1,44 @@
+.card { 
+    border-radius: rem-calc(20px);
+    border-color:  rgb(208, 201, 201);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.19),0 2px 10px 0 rgba(0,0,0,0.19);
+}
+
+.input{
+    height: rem-calc(40px);
+    border-radius: rem-calc(10px);
+    border: rem-calc(1px) solid #5f6368;
+    padding-left:rem-calc(5px)
+}
+
+.flex{
+    display: flex;
+}
+
+@mixin button {
+    height: rem-calc(50px);
+    width: rem-calc(100px);
+    border:none;
+    border-radius: rem-calc(10px);
+    cursor: pointer;
+}
+
+.primary{
+    @include button;
+    background-color: blueviolet;
+    color: white;
+}
+
+.primary:hover{
+    background-color: blue
+}
+
+.secondary{
+    @include button;
+    background-color: #323232;
+    color: white;
+}
+
+.secondary:hover{
+    background-color: black
+}

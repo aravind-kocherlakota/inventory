@@ -1,0 +1,20 @@
+
+.link{
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: rem-calc(150px);
+    margin-top:rem-calc(10px)
+}
+
+.tablePage{
+    flex-direction: column;
+    align-items: center;
+    .table{
+        width: 100%;
+    }
+}
+
+.tss-1cdcmys-MUIDataTable-responsiveBase{ /*datatatable class */
+    overflow:visible !important;
+}

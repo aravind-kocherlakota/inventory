@@ -1,0 +1,15 @@
+
+
+#header{
+    background-color: blueviolet;
+    height: rem-calc(60px);
+    width: 100%;
+    align-items: center ;
+
+    .title{
+        margin:0 0 0 rem-calc(10px);
+        color: white;
+        font-size:x-large;
+        font-weight: 600;
+    }
+}
