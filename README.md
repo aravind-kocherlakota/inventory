@@ -10,6 +10,7 @@ ASSUMPTIONS TAKEN -
 
 1. As I did not understand what "nearest across all batches means, I showing minimum  expiry date
 2. If there are two batches same name , As per problem state we are not aggregating them. As  that won't be right I aggreagted records with same batch name. (it is necessary as we are using dropdown for batchname , we cannot have duplicate values)
+![alt text](https://raw.githubusercontent.com/aravind-kocherlakota/inventory/master/public/ps.png)
 
 
 SITE NAVIGATION
@@ -22,6 +23,12 @@ SITE NAVIGATION
 6. any other route will redirect to 404 page
 7. on page refresh it will go to file input page (as it is only frontend)
 
+SCREENS
+![alt text](https://raw.githubusercontent.com/aravind-kocherlakota/inventory/master/public/1.png)
+![alt text](https://raw.githubusercontent.com/aravind-kocherlakota/inventory/master/public/2.png)
+![alt text](https://raw.githubusercontent.com/aravind-kocherlakota/inventory/master/public/2_1.png)
+![alt text](https://raw.githubusercontent.com/aravind-kocherlakota/inventory/master/public/3.png)
+![alt text](https://raw.githubusercontent.com/aravind-kocherlakota/inventory/master/public/3_1.png)
 
 
 using React 18 - known bugs in react 18 - https://www.techiediaries.com/react-18-useeffect/
